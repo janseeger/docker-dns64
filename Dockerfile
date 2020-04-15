@@ -12,4 +12,4 @@ ENTRYPOINT ["/docker-entry.sh"]
 
 EXPOSE 53/udp 53/tcp
 
-CMD ['named']
+CMD ['/usr/sbin/named']
