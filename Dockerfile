@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:stable-slim
 
 ENV DNS64_PREFIX='64:ff9b:1::/48' \
     DNS64_IP6_LISTEN='any' \
